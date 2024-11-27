@@ -35,7 +35,7 @@ jobs:
       if: always()
       with:
         files: |
-          */src/test-results/**/*.xml
+          **/src/test-results/**/*.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
