@@ -12,7 +12,7 @@ class CalculatorTests {
         var calculator = new Calculator();
         int actual = calculator.add(2,3);
 
-        assertEquals(5,actual);
+        assertEquals(4,actual);
 
     }
 }
