@@ -15,6 +15,7 @@
                 <version>2.21.0</version>
                 <configuration>
                     <includes>
+                        <include>**/github.actions.labfolio2.java</include>
                         <include>**/*Test.java</include>
                     </includes>
                 </configuration>

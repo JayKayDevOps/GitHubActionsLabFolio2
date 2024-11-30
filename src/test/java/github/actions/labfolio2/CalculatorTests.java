@@ -1,5 +1,8 @@
 package github.actions.labfolio2;
 
+//import org.junit.jupiter.api.BeforeEach;
+
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
 //import org.junit.platform.suite.api.Suite;
 //import org.junit.platform.suite.api.SuiteDisplayName;
@@ -9,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 class CalculatorTest {
+
     @Test
     void testCalculatorAdds() {
         var calculator = new Calculator();
@@ -16,11 +20,12 @@ class CalculatorTest {
 
         assertEquals(5, actual);
     }
-}
 
-/*@Suite
-@SuiteDisplayName("A Calculator Test Suite")
-class TwoCalculatorTests {
+
+//@Suite
+//@SuiteDisplayName("A Calculator Test Suite")
+
+    @Test
     void testCalculatorMultiplies() {
         var calculator = new Calculator();
         int actual = calculator.multiply(2, 3);
@@ -29,11 +34,14 @@ class TwoCalculatorTests {
 
     }
 
+    @Test
     void testCalculatorDivides() {
         var calculator = new Calculator();
         int actual = calculator.divide(6, 3);
 
-        assertEquals(6, actual);
+        assertEquals(2, actual);
 
-    }*/
+    }
+
+}
 
