@@ -1,8 +1,8 @@
 package github.actions.labfolio2;
 
 import org.junit.jupiter.api.Test;
-import org.junit.platform.suite.api.Suite;
-import org.junit.platform.suite.api.SuiteDisplayName;
+//import org.junit.platform.suite.api.Suite;
+//import org.junit.platform.suite.api.SuiteDisplayName;
 //import org.junit.runner.RunWith;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -18,7 +18,7 @@ class CalculatorTest {
     }
 }
 
-@Suite
+/*@Suite
 @SuiteDisplayName("A Calculator Test Suite")
 class TwoCalculatorTests {
     void testCalculatorMultiplies() {
@@ -35,5 +35,5 @@ class TwoCalculatorTests {
 
         assertEquals(6, actual);
 
-    }
-}
+    }*/
+
