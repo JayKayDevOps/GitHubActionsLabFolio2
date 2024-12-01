@@ -7,10 +7,11 @@ Author: Jason Kelly
 Student No. L00194486
 *********************
 
-The aim of this project is to show how GitHub Actions can be used for testing. To run tests with Github Actions it gets the user to demonstrate learning of GitHub Actions on 
-how it can prove to be a very useful DevOps tool in the automation of CI/CD pipelines. By using GitHub Actions to execute tests it also demonstrating on how applications can be
-Built, Tested and Deployed very efficiently. Using GitHub Actions, Workflows need to be created and integrated into a project.
-Another aim of this project is to demonstrate understanding of being able to configure GitHub Actions Workflows in order for them to carry out desired tasks.  
+The aim of this project is to show how GitHub Actions can be used for testing. To run tests with Github Actions 
+it demonstrates learning of GitHub Actions and how it can prove to be a very useful DevOps tool in the automation of CI/CD pipelines. 
+By using GitHub Actions to execute tests it also demonstrating on how applications can be Built, Tested and Deployed very efficiently.
+Using GitHub Actions, Workflows need to be created and integrated into a project.
+Another aim of this project is to demonstrate understanding of being able to configure GitHub Actions Workflows in order for them to carry out desired tasks.
 
 **Method**
 
