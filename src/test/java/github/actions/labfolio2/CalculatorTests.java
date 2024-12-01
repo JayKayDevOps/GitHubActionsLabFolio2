@@ -1,18 +1,17 @@
 package github.actions.labfolio2;
 
-//import org.junit.jupiter.api.BeforeEach;
-
-import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
-//import org.junit.platform.suite.api.Suite;
-//import org.junit.platform.suite.api.SuiteDisplayName;
-//import org.junit.runner.RunWith;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * This is the CalculatorTests class that tests
+ * the methods from the Calculator Class.
+ */
 
 class CalculatorTest {
 
+    //Testing the Calculator Add method
     @Test
     void testCalculatorAdds() {
         var calculator = new Calculator();
@@ -21,27 +20,22 @@ class CalculatorTest {
         assertEquals(5, actual);
     }
 
-
-//@Suite
-//@SuiteDisplayName("A Calculator Test Suite")
-
+    //Testing the Calculator Multiplies method
     @Test
     void testCalculatorMultiplies() {
         var calculator = new Calculator();
         int actual = calculator.multiply(2, 3);
 
         assertEquals(6, actual);
-
     }
 
+    //Testing the Calculator Divides method
     @Test
     void testCalculatorDivides() {
         var calculator = new Calculator();
         int actual = calculator.divide(6, 3);
 
         assertEquals(2, actual);
-
     }
-
 }
 
