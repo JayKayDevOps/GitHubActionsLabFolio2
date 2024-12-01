@@ -1,5 +1,5 @@
 ***********************
-Cloudformation Project
+GitHub Actions Project
 ***********************
 
 *********************
